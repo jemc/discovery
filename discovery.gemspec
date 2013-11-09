@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'discovery'
-  s.version       = '0.0.1'
+  s.version       = '0.0.2'
   s.date          = '2013-10-08'
   s.summary       = "discovery"
   s.description   = "Device and service discovery."

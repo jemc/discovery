@@ -27,6 +27,10 @@ module Discovery
       end
     end
     
+    # Halt the discovery thread started by listen, 
+    # but do not unregister the callback
+    def self.halt; @thread.kill; end
+    
     # Return the info hash of the next DDDP beacon detected - blocking
     # Optional :timeout keyword argument specifies maximum time to block
     def self.next_beacon timeout:nil

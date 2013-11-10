@@ -7,6 +7,12 @@ module Discovery
     @port  =  0
     @group = "0.0.0.0"
     
+    class << self
+      attr_accessor :port
+      attr_accessor :group
+      attr_reader   :thread
+    end
+    
     def self.new; raise NotImplementedError nil end
     
     # Register a callback to be used in the event of a recognized beacon.

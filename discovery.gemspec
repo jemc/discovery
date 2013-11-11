@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name          = 'discovery'
-  s.version       = '0.0.3'
-  s.date          = '2013-10-09'
+  s.version       = '0.0.4'
+  s.date          = '2013-10-10'
   s.summary       = "discovery"
   s.description   = "Device and service discovery."
   s.authors       = ["Joe McIlvain"]

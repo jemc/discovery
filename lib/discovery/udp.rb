@@ -47,7 +47,7 @@ module Discovery
     # Convert the incoming beacon to a Hash containing all necessary info
     # Implement to something nontrivial in the inherited module
     def self.beacon_to_hash beacon
-      {beacon:beacon}
+      {beacon:beacon.to_s, sender:beacon.source}
     end
     
     # Register a block to be used to convert a recognized
